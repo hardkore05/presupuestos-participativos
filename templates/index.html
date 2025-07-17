@@ -39,7 +39,7 @@
         <select name="vista" id="vista" class="form-select mb-3" onchange="toggleSelectores()">
             <option value="tabla" {% if vista == 'tabla' %}selected{% endif %}>HERRAMIENTAS</option>
             <option value="presentacion" {% if vista == 'presentacion' %}selected{% endif %}>PRESENTACIÓN</option>
-            <option value="pdf" {% if vista == 'pdf' %}selected{% endif %}>CRITERIOS</option>
+            <option value="pdf" {% if vista == 'pdf' %}selected{% endif %}>ANEXOS</option>
         </select>
 
         <div id="hojaSelector" style="display: {% if vista == 'tabla' %}block{% else %}none{% endif %};">
