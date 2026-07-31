@@ -37,7 +37,6 @@
     <form method="post">
         <label for="vista" class="form-label">¿Qué deseas ver?</label>
         <select name="vista" id="vista" class="form-select mb-3" onchange="toggleSelectores()">
-            <option value="tabla" {% if vista == 'tabla' %}selected{% endif %}>REGISTRO</option>
             <option value="tabla" {% if vista == 'tabla' %}selected{% endif %}>HERRAMIENTAS</option>
             <option value="presentacion" {% if vista == 'presentacion' %}selected{% endif %}>PRESENTACIÓN</option>
             <option value="pdf" {% if vista == 'pdf' %}selected{% endif %}>ANEXOS</option>
